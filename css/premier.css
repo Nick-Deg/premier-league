@@ -1,0 +1,720 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.box2 {
+    position: relative;
+    height: 58px;
+    background: #2e1e4b;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 0 12px;
+}
+
+.img1 {
+    width: 90px;
+    height: auto;
+}
+
+.img2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 50px;
+}
+
+.box3 {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.button1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 92px;
+    height: 38px;
+    border-radius: 999px;
+    background: #ececef;
+    color: #2e1e4b;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box4 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background: #2e1e4b;
+}
+
+.img3 {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+}
+
+.button2 {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    width: 190px;
+    height: 74px;
+    border-radius: 28px;
+    background: #ececef;
+    color: #2e1e4b;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box5 {
+    height: 74px;
+    background: #2e1e4b;
+}
+
+.about-body {
+    margin: 0;
+}
+
+.about-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page .about-hero {
+    position: relative;
+    width: min(100%, 1400px);
+    height: 560px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 76px 24px 24px;
+}
+
+.about-page .about-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+.about-page .about-card {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 460px;
+    max-width: 92vw;
+    height: 300px;
+    border-radius: 22px;
+    background: #d8d8da;
+    padding: 22px 30px;
+    z-index: 2;
+}
+
+.about-page .about-back-btn {
+    position: absolute;
+    top: -26px;
+    left: -20px;
+    min-width: 86px;
+    height: 48px;
+    border-radius: 20px;
+    background: #ececef;
+    color: #181818;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0 18px;
+}
+
+.about-page .about-title {
+    margin: 0;
+    color: #2e1e4b;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .about-page .about-hero {
+        height: 480px;
+    }
+
+    .about-page .about-card {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 700px) {
+    .about-page .about-hero {
+        height: 380px;
+        padding-top: 54px;
+    }
+
+    .about-page .about-card {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.login-body {
+    margin: 0;
+    height: 100vh;
+    background: #2e1e4b;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.login-page {
+    height: 100vh;
+    position: relative;
+    padding: 12px 24px 24px;
+    overflow: hidden;
+}
+
+.login-passaro {
+    width: 90px;
+    height: auto;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
+.login-lion {
+    position: absolute;
+    width: 160px;
+    height: auto;
+    top: 34%;
+}
+
+.login-lion-left {
+    left: 48px;
+}
+
+.login-lion-right {
+    right: 48px;
+}
+
+.login-card-shell {
+    position: relative;
+    width: 100%;
+    max-width: 620px;
+    margin: 18px auto 0;
+}
+
+.login-back-btn {
+    position: absolute;
+    top: -24px;
+    left: -12px;
+    min-width: 108px;
+    height: 48px;
+    border-radius: 20px;
+    background: #f1f1f3;
+    color: #101010;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0 22px;
+    z-index: 2;
+}
+
+.login-card {
+    background: #ececef;
+    border-radius: 20px;
+    padding: 10px 24px 18px;
+}
+
+.login-brand-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 10px;
+}
+
+.login-brand-pl {
+    width: 160px;
+    height: auto;
+}
+
+.login-brand-barclays {
+    width: 96px;
+    height: auto;
+}
+
+.login-inner {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+    background: #bdb4d2;
+    border-radius: 24px;
+    padding: 10px 26px 20px;
+}
+
+.login-title {
+    margin: 2px 0 14px;
+    text-align: center;
+    color: #0f0f14;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.login-input {
+    display: block;
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 999px;
+    background: #dde0e5;
+    margin: 0 0 16px;
+    padding: 0 16px;
+    font-size: 18px;
+}
+
+.login-form {
+    margin: 0;
+}
+
+.login-submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64%;
+    height: 38px;
+    border: none;
+    border-radius: 999px;
+    background: #ececef;
+    color: #2e1e4b;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px auto 0;
+}
+
+.login-submit-btn:hover {
+    background: #e0e0e5;
+}
+
+.login-register-btn {
+    display: block;
+    margin: 14px 0 0;
+    text-align: center;
+    color: #1c1c1c;
+    font-size: 28px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login-register-btn:hover {
+    text-decoration: underline;
+}
+
+.clubs-body {
+    margin: 0;
+    min-height: 100vh;
+    background: #2e1e4b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clubs-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 38px 20px 20px;
+}
+
+.clubs-panel {
+    position: relative;
+    background: #d8d8da;
+    border-radius: 20px;
+    padding: 30px 22px 16px;
+}
+
+.clubs-back-btn {
+    position: absolute;
+    top: -14px;
+    left: -12px;
+    min-width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ececef;
+    color: #111;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0 18px;
+}
+
+.clubs-list {
+    max-height: 510px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.club-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-height: 92px;
+    border-radius: 20px;
+    background: #efeff0;
+    padding: 10px 18px;
+    margin: 0 0 12px;
+}
+
+.club-logo {
+    width: 72px;
+    height: 72px;
+    border-radius: 0;
+    object-fit: contain;
+    object-position: center;
+    background: transparent;
+    flex: 0 0 72px;
+    padding: 0;
+}
+
+.club-logo-fallback {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #2e1e4b;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.club-name {
+    margin: 0;
+    color: #111;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.club-go-btn {
+    margin-left: auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #2e1e4b;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.manu-body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1f1f1f;
+}
+
+.manu-page {
+    min-height: 100vh;
+    background-image: url("../media/old trafford.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.liverpool-page {
+    background-image: url("../media/anfield.webp");
+}
+
+.arsenal-page {
+    background-image: url("../media/emirates.jpg");
+}
+
+.chelsea-page {
+    background-image: url("../media/chelseastadium.jpg");
+}
+
+.chelsea-page .manu-topbar {
+    background: #034694;
+    border-bottom-color: #02224a;
+}
+
+.chelsea-page .manu-match-row {
+    background: #0057b8;
+}
+
+.chelsea-page .manu-go-btn {
+    background: #0078ff;
+}
+
+.mancity-page {
+    background-image: url("../media/Stadion-Manchester-City.jpg");
+}
+
+.mancity-page .manu-topbar {
+    background: #6cabdd;
+    border-bottom-color: #2b5f89;
+}
+
+.mancity-page .manu-match-row {
+    background: #4c95c9;
+}
+
+.mancity-page .manu-go-btn {
+    background: #2b78b5;
+}
+
+.tottenham-page {
+    background-image: url("../media/TottenhamStadium.jpg");
+}
+
+.tottenham-page .manu-topbar {
+    background: #f3f6fb;
+    border-bottom-color: #aeb7c4;
+}
+
+.tottenham-page .manu-match-row {
+    background: #e8edf5;
+}
+
+.tottenham-page .manu-vs,
+.tottenham-page .manu-match-info {
+    color: #132257;
+}
+
+.tottenham-page .manu-go-btn {
+    background: #132257;
+}
+
+.tottenham-page .manu-top-logo {
+    width: 122px;
+    height: 122px;
+}
+
+
+
+.newcastle-page {
+    background-image: url("../media/newcastle-united-.jpg");
+}
+
+.newcastle-page .manu-topbar {
+    background: #191919;
+    border-bottom-color: #000000;
+}
+
+.newcastle-page .manu-match-row {
+    background: #2b2b2b;
+}
+
+.newcastle-page .manu-go-btn {
+    background: #111111;
+}
+
+.astonvilla-page {
+    background-image: url("../media/aston villa stadion.jpg");
+}
+
+.astonvilla-page .manu-topbar {
+    background: #670e36;
+    border-bottom-color: #3b0620;
+}
+
+.astonvilla-page .manu-match-row {
+    background: #7b1847;
+}
+
+.astonvilla-page .manu-go-btn {
+    background: #58a9df;
+}
+
+.westham-page {
+    background-image: url("../media/westhamstadion.jpg");
+}
+
+.westham-page .manu-topbar {
+    background: #670e36;
+    border-bottom-color: #3b0620;
+}
+
+.westham-page .manu-match-row {
+    background: #7b1847;
+}
+
+.westham-page .manu-go-btn {
+    background: #58a9df;
+}
+
+
+
+.brighton-page {
+    background-image: url("../media/amex-stadium.webp");
+}
+
+.brighton-page .manu-topbar {
+    background: #2a4797;
+    border-bottom-color: #3b0620;
+}
+
+.brighton-page .manu-match-row {
+    background: #2a4797;
+}
+
+.brighton-page .manu-go-btn {
+    background: #223978;
+}
+
+.manu-topbar {
+    height: 112px;
+    background: #b00404;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(52px, 18vw, 220px);
+    border-bottom: 2px solid #120808;
+}
+
+.manu-devil {
+    width: 88px;
+    height: 88px;
+    object-fit: contain;
+}
+
+.manu-top-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.manu-content {
+    width: min(980px, 92vw);
+    margin: 36px auto 0;
+    border-radius: 24px;
+    background: #d7d7d9;
+    padding: 28px 28px 24px;
+    position: relative;
+}
+
+.manu-back-btn {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    min-width: 88px;
+    height: 42px;
+    border-radius: 20px;
+    background: #ececef;
+    color: #101010;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 0 18px;
+}
+
+.manu-fixtures {
+    max-height: 340px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.manu-match-row {
+    background: #b00404;
+    border-radius: 20px;
+    min-height: 102px;
+    margin-bottom: 14px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.manu-league-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+
+.manu-team-logo {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.manu-vs {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.manu-match-info {
+    margin-left: auto;
+    width: 170px;
+    flex: 0 0 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.05;
+}
+
+.manu-match-info span {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.manu-go-btn {
+    margin-left: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #d1004f;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1;
+}
