@@ -30,7 +30,7 @@ require_once "config.php";
                         <span>6 Mei</span>
                         <span>20:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="mancars.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
