@@ -30,7 +30,7 @@ require_once "config.php";
                         <span>3 Mei</span>
                         <span>16:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="manliv.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -42,7 +42,7 @@ require_once "config.php";
                         <span>18 Mei</span>
                         <span>17:30</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="ManArs.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -54,7 +54,7 @@ require_once "config.php";
                         <span>24 Mei</span>
                         <span>20:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="ManChe.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -66,7 +66,7 @@ require_once "config.php";
                         <span>2 Juni</span>
                         <span>15:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="ManManc.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -78,7 +78,7 @@ require_once "config.php";
                         <span>9 Juni</span>
                         <span>14:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="ManNew.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -90,7 +90,7 @@ require_once "config.php";
                         <span>16 Juni</span>
                         <span>18:30</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="ManTot.php" class="manu-go-btn">&gt;</a>
                 </article>
             </div>
         </section>
