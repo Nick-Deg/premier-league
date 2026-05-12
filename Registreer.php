@@ -17,7 +17,7 @@ require_once "config.php";
         <img src="media/lion.png" alt="Premier League lion rechts" class="login-lion login-lion-right">
 
         <section class="login-card-shell">
-            <a href="Home.php" class="login-back-btn">BACK</a>
+            <a href="Login.php" class="login-back-btn">BACK</a>
 
             <div class="login-card">
                 <div class="login-brand-row">

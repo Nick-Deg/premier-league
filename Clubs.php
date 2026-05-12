@@ -78,61 +78,61 @@ require_once "config.php";
                 <article class="club-row">
                     <img src="media/Wolverhampton.png" alt="Wolverhampton" class="club-logo">
                     <h2 class="club-name">Wolverhampton</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="wolverhampton.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/Crystal_Palace.png" alt="Crystal Palace" class="club-logo">
                     <h2 class="club-name">Crystal Palace</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="Crystalpalace.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/Everton.png" alt="Everton" class="club-logo">
                     <h2 class="club-name">Everton</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="Everton.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/Brentford.png" alt="Brentford" class="club-logo">
                     <h2 class="club-name">Brentford</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="Brentford.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/Fulham.png" alt="Fulham" class="club-logo">
                     <h2 class="club-name">Fulham</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="Fulham.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/AFC_Bournemouth.png" alt="Bournemouth" class="club-logo">
                     <h2 class="club-name">Bournemouth</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="Bournemouth.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/Nottingham_Forest.png" alt="Nottingham Forest" class="club-logo">
                     <h2 class="club-name">Nottingham Forest</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="nottinhghamforest.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/Leicester_City.png" alt="Leicester City" class="club-logo">
                     <h2 class="club-name">Leicester City</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="leicester.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/Ipswich_Town.png" alt="Ipswich Town" class="club-logo">
                     <h2 class="club-name">Ipswich Town</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="ipswich.php" class="club-go-btn">&gt;</a>
                 </article>
 
                 <article class="club-row">
                     <img src="media/FC_Southampton.png" alt="Southampton" class="club-logo">
                     <h2 class="club-name">Southampton</h2>
-                    <a href="#" class="club-go-btn">&gt;</a>
+                    <a href="south.php" class="club-go-btn">&gt;</a>
                 </article>
             </div>
         </section>

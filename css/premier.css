@@ -599,6 +599,181 @@ body {
     background: #223978;
 }
 
+.wolves-page {
+    background-image: url("../media/wolvesstadion.webp");
+}
+
+.wolves-page .manu-topbar {
+    background: #c99b3f;
+    border-bottom-color: #3b0620;
+}
+
+.wolves-page .manu-match-row {
+    background: #c99b3f;
+}
+
+.wolves-page .manu-go-btn {
+    background: #8b6b2b;
+}
+
+
+.crystalpalace-page {
+    background-image: url("../media/crystal\ stadium.jpg");
+}
+
+.crystalpalace-page .manu-topbar {
+    background: #1d4fa3;
+    border-bottom-color: #b31217;
+}
+
+.crystalpalace-page .manu-match-row {
+    background: #1d4fa3;
+}
+
+.crystalpalace-page .manu-go-btn {
+    background: #b31217;
+}
+
+.everton-page {
+    background-image: url("../media/goodison.jpg");
+}
+
+.everton-page .manu-topbar {
+    background: #003399;
+    border-bottom-color: #ffffff;
+}
+
+.everton-page .manu-match-row {
+    background: #003399;
+}
+
+.everton-page .manu-go-btn {
+    background: #001f66;
+}
+
+.brentford-page {
+    background-image: url("../media/brentfrod stadium.jpg");
+}
+
+.brentford-page .manu-topbar {
+    background: #c4122e;
+    border-bottom-color: #111111;
+}
+
+.brentford-page .manu-match-row {
+    background: #c4122e;
+}
+
+.brentford-page .manu-go-btn {
+    background: #111111;
+}
+
+.fulham-page {
+    background-image: url("../media/fulham stadion.jpg");
+}
+
+.fulham-page .manu-topbar {
+    background: #ffffff;
+    border-bottom-color: #111111;
+}
+
+.fulham-page .manu-match-row {
+    background: #cbcbcb;
+    color: #111111;
+}
+
+.fulham-page .manu-go-btn {
+    background: #111111;
+}
+
+
+.bournemouth-page {
+    background-image: url("../media/bourn stadion.jpg");
+}
+
+.bournemouth-page .manu-topbar {
+    background: #b31217;
+    border-bottom-color: #111111;
+}
+
+.bournemouth-page .manu-match-row {
+    background: #b31217;
+}
+
+.bournemouth-page .manu-go-btn {
+    background: #111111;
+}
+
+.forest-page {
+    background-image: url("../media/notting.jpg");
+}
+
+.forest-page .manu-topbar {
+    background: #a60e27;
+    border-bottom-color: #ffffff;
+}
+
+.forest-page .manu-match-row {
+    background: #a60e27;
+}
+
+.forest-page .manu-go-btn {
+    background: #8b0000;
+}
+
+.leicester-page {
+    background-image: url("../media/leicesterstadion.jpg");
+}
+
+.leicester-page .manu-topbar {
+    background: #0053a0;
+    border-bottom-color: #f5a623;
+}
+
+.leicester-page .manu-match-row {
+    background: #0053a0;
+}
+
+.leicester-page .manu-go-btn {
+    background: #f5a623;
+}
+
+.ipswich-page {
+    background-image: url("../media/ipswichstadion.webp");
+}
+
+.ipswich-page .manu-topbar {
+    background: #0057b8;
+    border-bottom-color: #ffffff;
+}
+
+.ipswich-page .manu-match-row {
+    background: #0057b8;
+}
+
+.ipswich-page .manu-go-btn {
+    background: #ffffff;
+    color: #0057b8;
+}
+
+.southampton-page {
+    background-image: url("../media/south.jpg");
+}
+
+.southampton-page .manu-topbar {
+    background: #d71920;
+    border-bottom-color: #ffffff;
+}
+
+.southampton-page .manu-match-row {
+    background: #d71920;
+}
+
+.southampton-page .manu-go-btn {
+    background: #ffffff;
+    color: #d71920;
+}
+
 .manu-topbar {
     height: 112px;
     background: #b00404;
