@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once "config.php";
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@ require_once "config.php";
     <title>Arsenal - Secties</title>
     <link rel="stylesheet" href="css/premier.css?v=<?= filemtime('css/premier.css') ?>">
 </head>
-<body class="manliv-body">
+<body class="manliv-body arsenal-seat-body">
     <main class="manliv-page">
         <header class="manliv-top">
             <div class="manliv-top-left">
@@ -20,8 +20,8 @@ require_once "config.php";
         </header>
 
         <section class="manliv-main">
-            <div class="manliv-map" aria-label="Plattegrond stadion">
-                <img src="media/emirates-seating.png" alt="Emirates Stadium indeling">
+            <div class="manliv-map" aria-label="Plattegrond Emirates Stadium">
+                <img src="media/arsenalseating.png" alt="Emirates Stadium stadion indeling">
             </div>
 
             <div class="manliv-list" aria-label="Ticket secties">
@@ -33,13 +33,13 @@ require_once "config.php";
 
                 <a href="#" class="manliv-card">
                     <span class="manliv-label">Sectie 2</span>
-                    <span class="manliv-price">$169,99</span>
+                    <span class="manliv-price">$149,99</span>
                     <span class="manliv-arrow">&gt;</span>
                 </a>
 
                 <a href="#" class="manliv-card">
                     <span class="manliv-label">Sectie 3</span>
-                    <span class="manliv-price">$119,99</span>
+                    <span class="manliv-price">$99,99</span>
                     <span class="manliv-arrow">&gt;</span>
                 </a>
             </div>
