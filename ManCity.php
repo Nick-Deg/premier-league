@@ -42,7 +42,7 @@ require_once "config.php";
                         <span>13 Mei</span>
                         <span>18:45</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="manccry.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -54,7 +54,7 @@ require_once "config.php";
                         <span>21 Mei</span>
                         <span>21:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="manceve.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -66,7 +66,7 @@ require_once "config.php";
                         <span>29 Mei</span>
                         <span>16:30</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="mancful.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -78,7 +78,7 @@ require_once "config.php";
                         <span>4 Juni</span>
                         <span>14:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="manclei.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -90,7 +90,7 @@ require_once "config.php";
                         <span>11 Juni</span>
                         <span>17:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="mancbri.php" class="manu-go-btn">&gt;</a>
                 </article>
             </div>
         </section>
