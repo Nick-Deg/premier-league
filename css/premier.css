@@ -1070,3 +1070,74 @@ body {
         height: 380px;
     }
 }
+.totten-body .manliv-title {
+    color: #132257;
+    text-shadow: 2px 3px 0 #c7ccd8;
+}
+
+.totten-body .manliv-title-white {
+    color: #241b77;
+    text-shadow: 2px 3px 0 rgba(19, 34, 87, 0.4);
+}
+
+.totten-body .manliv-back {
+    border: 2px solid #132257;
+    background: rgba(19, 34, 87, 0.1);
+    color: #132257;
+}
+
+.totten-body .manliv-back:hover {
+    background: #132257;
+    color: #ffffff;
+}
+
+.totten-body .manliv-card {
+    background: #f5f7fb;
+    box-shadow: 0 2px 0 rgba(19, 34, 87, 0.12);
+}
+
+.totten-body .manliv-label,
+.totten-body .manliv-price {
+    color: #132257;
+}
+
+.totten-body .manliv-arrow {
+    background: #132257;
+    color: #ffffff;
+}
+
+.newcastle-body .manliv-title {
+    color: #878787;
+    text-shadow: 2px 3px 0 #000000;
+}
+
+.newcastle-body .manliv-title-white {
+    color: #727272;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.6);
+}
+
+.newcastle-body .manliv-back {
+    border: 2px solid #000000;
+    background: rgba(111, 111, 111, 0.1);
+    color: #a5a5a5;
+}
+
+.newcastle-body .manliv-back:hover {
+    background: #757575;
+    color: #000000;
+}
+
+.newcastle-body .manliv-card {
+    background: #858585;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.newcastle-body .manliv-label,
+.newcastle-body .manliv-price {
+    color: #000000;
+}
+
+.newcastle-body .manliv-arrow {
+    background: #000000;
+    color: #ffffff;
+}
