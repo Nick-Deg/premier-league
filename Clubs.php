@@ -12,7 +12,7 @@ require_once "config.php";
 <body class="clubs-body">
     <main class="clubs-page">
         <section class="clubs-panel">
-            <a href="Home.php" class="clubs-back-btn">BACK</a>
+            <a href="index.php" class="clubs-back-btn">BACK</a>
 
             <div class="clubs-list" aria-label="Engelse clubs">
                 <article class="club-row">
