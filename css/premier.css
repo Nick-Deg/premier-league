@@ -564,7 +564,10 @@ body {
 }
 
 .westham-page {
+    background-color: #7a263a;
     background-image: url("../media/westhamstadion.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .westham-page .manu-topbar {
@@ -577,7 +580,40 @@ body {
 }
 
 .westham-page .manu-go-btn {
-    background: #58a9df;
+    background: #632323;
+}
+
+.wesful-page,
+.wesnew-page,
+.wesmanc-page,
+.wescri-page,
+.wesche-page,
+.wesbre-page {
+    background-color: #7a263a;
+    background-image: linear-gradient(180deg, #7a263a 0%, #97c8ea 100%);
+}
+
+.wesbre-page .manu-topbar {
+    background: #670e36;
+    border-bottom-color: #3b0620;
+}
+
+.wesbre-page .manu-match-row {
+    background: #7b1847;
+}
+
+.wesbre-page .manu-go-btn {
+    background: #632323;
+}
+
+.wesful-page .manliv-arrow,
+.wesnew-page .manliv-arrow,
+.wesmanc-page .manliv-arrow,
+.wescri-page .manliv-arrow,
+.wesche-page .manliv-arrow,
+.wesbre-page .manliv-arrow {
+    background: #7a263a;
+    color: #ffffff;
 }
 
 
@@ -618,7 +654,7 @@ body {
 
 
 .crystalpalace-page {
-    background-image: url("../media/crystal\ stadium.jpg");
+    background-image: url("../media/crystal stadium.jpg");
 }
 
 .crystalpalace-page .manu-topbar {
@@ -914,6 +950,98 @@ body {
     background: #c8102e;
 }
 
+.brighton-seat-body {
+    background: #0057b8;
+}
+
+.brentford-seat-body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #c4122e;
+    color: #ffffff;
+}
+
+.brentford-seat-body .manliv-title {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.brentford-seat-body .manliv-title-white {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.brentford-seat-body .manliv-back {
+    border: 2px solid #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
+
+.brentford-seat-body .manliv-back:hover {
+    background: #ffffff;
+    color: #c4122e;
+}
+
+.brentford-seat-body .manliv-card {
+    background: #ffe6e6;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+.brentford-seat-body .manliv-label,
+.brentford-seat-body .manliv-price {
+    color: #111111;
+}
+
+.brentford-seat-body .manliv-arrow {
+    background: #8b0f1c;
+    color: #ffffff;
+}
+
+.bournemouth-seat-body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #c4122e;
+    color: #ffffff;
+}
+
+.bournemouth-seat-body .manliv-title {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.bournemouth-seat-body .manliv-title-white {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.bournemouth-seat-body .manliv-back {
+    border: 2px solid #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
+
+.bournemouth-seat-body .manliv-back:hover {
+    background: #ffffff;
+    color: #c4122e;
+}
+
+.bournemouth-seat-body .manliv-card {
+    background: #ffe6e6;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+.bournemouth-seat-body .manliv-label,
+.bournemouth-seat-body .manliv-price {
+    color: #111111;
+}
+
+.bournemouth-seat-body .manliv-arrow {
+    background: #8b0f1c;
+    color: #ffffff;
+}
+
 .manliv-page {
     width: 100%;
     max-width: 1250px;
@@ -1074,7 +1202,6 @@ body {
         height: 380px;
     }
 }
-<<<<<<< Updated upstream
 .totten-body .manliv-title {
     color: #132257;
     text-shadow: 2px 3px 0 #c7ccd8;
@@ -1145,7 +1272,8 @@ body {
 .newcastle-body .manliv-arrow {
     background: #000000;
     color: #ffffff;
-=======
+}
+
 
 .tot-body {
     background: #f2f2f2;
@@ -1255,5 +1383,89 @@ body {
 .tot-arrow {
     font-size: 24px;
     font-weight: bold;
->>>>>>> Stashed changes
+}
+
+/* Wolves seating page colors (gele / gold theme) */
+.wolves-seat-body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #d09742;
+    color: #111;
+}
+
+.wolves-seat-body .manliv-title {
+    color: #111;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.18);
+}
+
+.wolves-seat-body .manliv-title-white {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.wolves-seat-body .manliv-back {
+    border: 2px solid #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
+
+.wolves-seat-body .manliv-back:hover {
+    background: #ffffff;
+    color: #ad6610;
+}
+
+.wolves-seat-body .manliv-card {
+    background: #fff8e6;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.wolves-seat-body .manliv-arrow {
+    background: #b57c01;
+    color: #ffffff;
+}
+
+/* Everton seating page colors (blauwe theme) */
+.everton-seat-body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #003399;
+    color: #ffffff;
+}
+
+.everton-seat-body .manliv-title {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.everton-seat-body .manliv-title-white {
+    color: #ffffff;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.everton-seat-body .manliv-back {
+    border: 2px solid #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
+
+.everton-seat-body .manliv-back:hover {
+    background: #ffffff;
+    color: #003399;
+}
+
+.everton-seat-body .manliv-card {
+    background: #e6f0ff;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+.everton-seat-body .manliv-label,
+.everton-seat-body .manliv-price {
+    color: #003399;
+}
+
+.everton-seat-body .manliv-arrow {
+    background: #001f66;
+    color: #ffffff;
 }

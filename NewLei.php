@@ -6,45 +6,44 @@ require_once "config.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tottenham - Secties</title>
+    <title>Newcastle - Secties</title>
     <link rel="stylesheet" href="css/premier.css?v=<?= filemtime('css/premier.css') ?>">
 </head>
 
-<!-- BELANGRIJK -->
-<body class="totten-body">
+<body class="newcastle-body">
 
     <main class="manliv-page">
         <header class="manliv-top">
             <div class="manliv-top-left">
-                <a href="Tottenham.php" class="manliv-back manliv-back-inline">BACK</a>
-                <h1 class="manliv-title manliv-title-white">TOTTENHAM</h1>
+                <a href="Newcastle.php" class="manliv-back manliv-back-inline">BACK</a>
+                <h1 class="manliv-title manliv-title-white">ST JAMES' PARK</h1>
             </div>
 
-            <img src="media/Tottenham-Hotspur-Logo.png" alt="Tottenham logo" class="manliv-logo">
+            <img src="media/newcastle utd.png" alt="Newcastle logo" class="manliv-logo">
         </header>
 
         <section class="manliv-main">
             <div class="manliv-map" aria-label="Plattegrond stadion">
-                <img src="media/totten-seating.png" alt="Tottenham stadion indeling">
+                <img src="media/st_james.png" alt="Newcastle stadion indeling">
             </div>
 
             <div class="manliv-list" aria-label="Ticket secties">
 
                 <a href="#" class="manliv-card">
                     <span class="manliv-label">Sectie 1</span>
-                    <span class="manliv-price">$399,99</span>
+                    <span class="manliv-price">$249,99</span>
                     <span class="manliv-arrow">&gt;</span>
                 </a>
 
                 <a href="#" class="manliv-card">
                     <span class="manliv-label">Sectie 2</span>
-                    <span class="manliv-price">$319,99</span>
+                    <span class="manliv-price">$179,99</span>
                     <span class="manliv-arrow">&gt;</span>
                 </a>
 
                 <a href="#" class="manliv-card">
                     <span class="manliv-label">Sectie 3</span>
-                    <span class="manliv-price">$249,99</span>
+                    <span class="manliv-price">$119,99</span>
                     <span class="manliv-arrow">&gt;</span>
                 </a>
 
