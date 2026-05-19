@@ -31,7 +31,7 @@ require_once "config.php";
                         <span>11 Mei</span>
                         <span>17:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="fortot.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">

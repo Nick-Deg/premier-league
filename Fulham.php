@@ -31,7 +31,7 @@ require_once "config.php";
                         <span>10 Mei</span>
                         <span>15:30</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="fulche.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -43,7 +43,7 @@ require_once "config.php";
                         <span>17 Mei</span>
                         <span>18:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="fulars.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -55,7 +55,7 @@ require_once "config.php";
                         <span>24 Mei</span>
                         <span>20:45</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="fulwol.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -67,7 +67,7 @@ require_once "config.php";
                         <span>31 Mei</span>
                         <span>17:15</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="fulliv.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -79,7 +79,7 @@ require_once "config.php";
                         <span>7 Juni</span>
                         <span>14:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="fulbri.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -91,7 +91,7 @@ require_once "config.php";
                         <span>14 Juni</span>
                         <span>19:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="fulman.php" class="manu-go-btn">&gt;</a>
                 </article>
 
             </div>

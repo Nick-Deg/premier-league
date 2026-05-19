@@ -914,6 +914,35 @@ body {
     background: #c8102e;
 }
 
+.crystal-seat-body {
+    background: #032b5c;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aston-seat-body {
+    background: #461028;
+}
+
+.aston-seat-body .manliv-card {
+    background: #670e36;
+}
+
+.aston-seat-body .manliv-label {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.aston-seat-body .manliv-arrow {
+    background: #670e36;
+}
+
+.aston-seat-body .manliv-back {
+    background: #670e36;
+    color: white;
+}
+
 .manliv-page {
     width: 100%;
     max-width: 1250px;
@@ -1074,3 +1103,80 @@ body {
         height: 380px;
     }
 }
+
+  body.aston-seat-body .manliv-card {
+            background: #efefef;
+            color: #111;
+        }
+        body.aston-seat-body .manliv-label {
+            color: #111;
+            /* slightly smaller label to match your earlier request */
+            font-size: clamp(30px, 3.2vw, 48px);
+        }
+        body.aston-seat-body .manliv-arrow {
+            background: #670e36 !important; /* purple circle only */
+            color: #fff;
+        }
+           /* Local overrides for Cryman.php */
+        body.crystal-seat-body .manliv-card {
+            background: #efefef;
+            color: #111;
+        }
+        body.crystal-seat-body .manliv-label {
+            color: #111;
+            font-size: clamp(30px, 3.2vw, 48px);
+        }
+        body.crystal-seat-body .manliv-arrow {
+            background: #3b5998 !important; /* deep blue accent for Palace */
+            color: #fff;
+        }
+        body.crystal-seat-body .manliv-back {
+
+            background: #3b5998;
+            color: white;
+        }
+              /* Local styles for Fulham seat page only */
+        body.fulham-seat-body .manliv-card {
+            background: #ffffff;
+            color: #111;
+        }
+        body.fulham-seat-body .manliv-label {
+            color: #111;
+            font-size: clamp(30px, 3.2vw, 48px);
+        }
+        body.fulham-seat-body .manliv-arrow {
+            background: #000000 !important; /* black circle */
+            color: #fff;
+        }
+        body.fulham-seat-body .manliv-back {
+            background: #000000;
+            color: #ffffff;
+        }
+          /* Local Forest seat page styling */
+        body.forest-seat-body .manliv-card {
+            background: rgba(255, 255, 255, 0.96);
+            color: #111;
+        }
+        body.forest-seat-body .manliv-label {
+            color: #111;
+            font-size: clamp(30px, 3.2vw, 48px);
+        }
+        body.forest-seat-body .manliv-arrow {
+            background: #a70f1a !important;
+            color: #fff;
+        }
+        body.forest-seat-body .manliv-back {
+            background: #a70f1a;
+            color: #ffffff;
+        }
+        body.forest-seat-body .manliv-page {
+            background-image: url("media/notting.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        body.forest-seat-body .manliv-map {
+            background: rgba(255,255,255,0.9);
+            padding: 18px;
+            border-radius: 26px;
+        }
