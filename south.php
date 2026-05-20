@@ -31,7 +31,7 @@ require_once "config.php";
                         <span>12 Mei</span>
                         <span>16:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="SouChe.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -43,7 +43,7 @@ require_once "config.php";
                         <span>18 Mei</span>
                         <span>18:30</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="SouChe.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -55,7 +55,7 @@ require_once "config.php";
                         <span>25 Mei</span>
                         <span>20:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="SouBou.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -67,7 +67,7 @@ require_once "config.php";
                         <span>1 Juni</span>
                         <span>17:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="SouEve.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -79,7 +79,7 @@ require_once "config.php";
                         <span>8 Juni</span>
                         <span>15:30</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="SouLei.php" class="manu-go-btn">&gt;</a>
                 </article>
 
                 <article class="manu-match-row">
@@ -91,7 +91,7 @@ require_once "config.php";
                         <span>15 Juni</span>
                         <span>19:00</span>
                     </div>
-                    <a href="#" class="manu-go-btn">&gt;</a>
+                    <a href="SouWol.php" class="manu-go-btn">&gt;</a>
                 </article>
 
             </div>

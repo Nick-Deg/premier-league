@@ -1199,7 +1199,7 @@ body {
         }
         body.forest-seat-body .manliv-arrow {
             background: #a70f1a !important;
-            color: #fff;
+            color: #ffffff;
         }
         body.forest-seat-body .manliv-back {
             background: #a70f1a;
@@ -1212,7 +1212,93 @@ body {
             background-repeat: no-repeat;
         }
         body.forest-seat-body .manliv-map {
-            background: rgba(255,255,255,0.9);
-            padding: 18px;
-            border-radius: 26px;
+            background: transparent;
+            padding: 0;
+            border-radius: 0;
+        }
+        body.forest-seat-body .manliv-logo {
+            width: clamp(80px, 7vw, 120px);
+            height: auto;
+        }
+        body.leicester-seat-body .manliv-card {
+            background: rgba(255, 255, 255, 0.96);
+            color: #111;
+        }
+        body.leicester-seat-body .manliv-label {
+            color: #111;
+            font-size: clamp(30px, 3.2vw, 48px);
+        }
+        body.leicester-seat-body .manliv-arrow {
+            background: #003090 !important;
+            color: #fff;
+        }
+        body.leicester-seat-body {
+            background: linear-gradient(180deg, #003090 0%, #f1bf00 100%);
+        }
+        body.leicester-seat-body .manliv-back {
+            background: #003090;
+            color: #ffffff;
+        }
+        body.leicester-seat-body .manliv-back:hover {
+            background: #ffffff;
+            color: #f1bf00;
+        }
+        body.leicester-seat-body .manliv-page {
+            background: linear-gradient(180deg, #003090 0%, #f1a100 100%);
+        }
+
+        /* Ipswich Town seat page styling */
+        body.ipswich-seat-body .manliv-card {
+            background: rgba(255, 255, 255, 0.96);
+            color: #111;
+        }
+        body.ipswich-seat-body .manliv-label {
+            color: #111;
+            font-size: clamp(30px, 3.2vw, 48px);
+        }
+        body.ipswich-seat-body .manliv-arrow {
+            background: #0072ce !important;
+            color: #fff;
+        }
+        body.ipswich-seat-body {
+            background: linear-gradient(180deg, #0072ce 0%, #72c8f4 100%);
+        }
+        body.ipswich-seat-body .manliv-back {
+            background: #0072ce;
+            color: #ffffff;
+        }
+        body.ipswich-seat-body .manliv-back:hover {
+            background: #ffffff;
+            color: #0072ce;
+        }
+        body.ipswich-seat-body .manliv-page {
+            background: linear-gradient(180deg, #0e538c 0%, #de2e2e 110%);
+        }
+
+        /* Southampton seat page styling */
+        body.south-seat-body .manliv-card {
+            background: rgba(255, 255, 255, 0.96);
+            color: #111;
+        }
+        body.south-seat-body .manliv-label {
+            color: #111;
+            font-size: clamp(30px, 3.2vw, 48px);
+        }
+        body.south-seat-body .manliv-arrow {
+            background: #d71920 !important;
+            color: #fff;
+        }
+        body.south-seat-body {
+            background: linear-gradient(180deg, #d71920 0%, #000000 100%);
+        }
+        body.south-seat-body .manliv-back {
+            background: #d71920;
+            color: #ffffff;
+        }
+        body.south-seat-body .manliv-back:hover {
+            background: #ffffff;
+            color: #d71920;
+        }
+        body.south-seat-body .manliv-page {
+            background: linear-gradient(180deg, #d71920 0%, #000000 100%);
         }
